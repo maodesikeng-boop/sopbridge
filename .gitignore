@@ -1,6 +1,6 @@
-#macos
+# macos
 .DS_Store
-#editor
+# editor
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
@@ -11,3 +11,6 @@
 !.env.example
 # Local tool config
 mise.local.toml
+
+# Python
+__pycache__/

@@ -1,0 +1,32 @@
+[project]
+name = "sopbridge-api"
+version = "0.1.0"
+description = "SOPbridge backend API"
+readme = "README.md"
+authors = [
+    { name = "zn01okok", email = "maodesikeng@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.142.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.13.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
+
+[tool.fastapi]
+entrypoint = "sopbridge_api.main:app"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP"]
