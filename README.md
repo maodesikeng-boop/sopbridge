@@ -38,6 +38,7 @@
 
 - [产品需求文档（PRD）](docs/01-prd.md)
 - [架构决策记录（ADR）](docs/adr/)
+- [Sprint 0 计划](docs/sprints/sprint-0.md)
 
 ## 本地开发
 

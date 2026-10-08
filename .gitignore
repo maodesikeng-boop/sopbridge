@@ -1,0 +1,13 @@
+#macos
+.DS_Store
+#editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+# Local tool config
+mise.local.toml
